@@ -2,7 +2,8 @@ class MicropostsController < ApplicationController
   # GET /microposts
   # GET /microposts.json
   def index
-    @microposts = Micropost.all? { |e|  }
+#    @microposts = Micropost.all? { |e|  }
+    @microposts = Micropost.all
   end
 
   # GET /microposts/1
